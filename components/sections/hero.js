@@ -24,7 +24,7 @@ export default function HeroSection() {
                     pre-fetching, and more. No config needed.
                 </Text>
                 <Flex justifyContent="center" mt="40px">
-                    <HStack>
+                    <HStack spacing="4">
                         <Button
                             px="56px"
                             colorScheme="blue"
@@ -32,7 +32,15 @@ export default function HeroSection() {
                         >
                             Start Learning
                         </Button>
-                        <Button px="56px">Documentation</Button>
+                        <Button
+                            px="56px"
+                            bg="white"
+                            color="#696969"
+                            fontWeight="400"
+                            boxShadow="0 6px 20px rgb(93 93 93 / 23%)"
+                        >
+                            Documentation
+                        </Button>
                     </HStack>
                 </Flex>
                 <Flex justifyContent="center" alignItems="center" mt="30px">
