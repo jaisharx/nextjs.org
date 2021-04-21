@@ -4,8 +4,8 @@ import Container from './container';
 function Links({ children }) {
     return (
         <HStack spacing="14" mr="auto">
-            {children.map((item) => (
-                <Link>
+            {children.map((item, idx) => (
+                <Link key={idx}>
                     <Text color="#696969">{item}</Text>
                 </Link>
             ))}

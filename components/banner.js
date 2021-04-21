@@ -1,6 +1,5 @@
 import { Box, HStack, Image, Text, Link } from '@chakra-ui/react';
 import Container from './container';
-import NextImage from 'next/image';
 
 export default function Banner() {
     return (
