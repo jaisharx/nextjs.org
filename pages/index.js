@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Banner from '../components/banner';
+import Navbar from '../components/navbar';
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             </Head>
 
             <Banner/>             
+            <Navbar/>
         </>
     );
 }
