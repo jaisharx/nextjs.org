@@ -15,7 +15,7 @@ function Links({ children }) {
 
 export default function Navbar() {
     return (
-        <Box p="4">
+        <Box p="4" position="sticky" top="0" bg="white" zIndex="sticky">
             <Container>
                 <Flex alignItems="center">
                     <Image src="/assets/logo.svg" mr="12" />
