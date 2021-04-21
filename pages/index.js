@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Banner from '../components/banner';
-import Improvements from '../components/improments';
+import Improvements from '../components/improvements';
 import Navbar from '../components/navbar';
 import FeatureSection from '../components/sections/features';
 import HeroSection from '../components/sections/hero';
