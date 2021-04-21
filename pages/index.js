@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Banner from '../components/banner';
 import Improvements from '../components/improments';
 import Navbar from '../components/navbar';
+import FeatureSection from '../components/sections/features';
 import HeroSection from '../components/sections/hero';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
             <Navbar/>
             <Improvements/>
             <HeroSection/>
+            <FeatureSection/>
         </>
     );
 }
