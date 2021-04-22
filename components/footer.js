@@ -18,7 +18,7 @@ function FooterLinks({ title, children }) {
 
 export default function Footer() {
     return (
-        <Box as="footer" pt="32px" pb="64px" borderTop="1px solid #eaeaea">
+        <Box as="footer" pt="32px" pb="64px" bg="#FAFAFA" borderTop="1px solid #eaeaea">
             <Container>
                 <Grid templateColumns="repeat(4, 1fr)">
                     <FooterLinks title="General resources">
