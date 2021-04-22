@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Banner from '../components/banner';
+import Footer from '../components/footer';
 import Improvements from '../components/improvements';
 import Navbar from '../components/navbar';
 import CTASection from '../components/sections/cta';
@@ -24,6 +25,7 @@ export default function Home() {
             <CustomerSection />
             <LearnSection />
             <CTASection />
+            <Footer />
         </>
     );
 }
