@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import CustomerSection from '../components/sections/customers';
 import FeatureSection from '../components/sections/features';
 import HeroSection from '../components/sections/hero';
+import LearnSection from '../components/sections/learn';
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <HeroSection />
             <FeatureSection />
             <CustomerSection />
+            <LearnSection/>
         </>
     );
 }
