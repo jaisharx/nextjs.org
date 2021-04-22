@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Banner from '../components/banner';
 import Improvements from '../components/improvements';
 import Navbar from '../components/navbar';
+import CTASection from '../components/sections/cta';
 import CustomerSection from '../components/sections/customers';
 import FeatureSection from '../components/sections/features';
 import HeroSection from '../components/sections/hero';
@@ -21,7 +22,8 @@ export default function Home() {
             <HeroSection />
             <FeatureSection />
             <CustomerSection />
-            <LearnSection/>
+            <LearnSection />
+            <CTASection />
         </>
     );
 }
