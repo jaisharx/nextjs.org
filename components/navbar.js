@@ -1,4 +1,14 @@
-import { Box, Text, Image, Flex, Button, HStack, Link } from '@chakra-ui/react';
+import {
+    Box,
+    Text,
+    Image,
+    Flex,
+    Button,
+    HStack,
+    Link,
+    StatLabel,
+} from '@chakra-ui/react';
+import styled from '@emotion/styled';
 import Container from './container';
 
 function Links({ children }) {
@@ -12,6 +22,18 @@ function Links({ children }) {
         </HStack>
     );
 }
+
+const LearnBtn = styled(Button)`
+    color: white;
+    padding: 0.25rem 1rem;
+    background-color: #0076ffe6;
+    border: 1px solid #0076ffe6;
+
+    &:hover {
+        color: #0076ffe6;
+        background-color: transparent;
+    }
+`;
 
 export default function Navbar() {
     return (
@@ -30,7 +52,7 @@ export default function Navbar() {
                         ]}
                     </Links>
                     <HStack spacing="8">
-                        <Button colorScheme="blue">Learn</Button>
+                        <LearnBtn>Learn</LearnBtn>
                         <Image src="/assets/github.svg" w="6" color="#696969" />
                     </HStack>
                 </Flex>
