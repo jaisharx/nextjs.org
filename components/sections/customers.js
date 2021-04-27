@@ -26,7 +26,11 @@ function Showcase() {
 }
 
 function TempShowcase() {
-    return <Image src="/assets/showcase-banner.png" mt="64px"/>;
+    return (
+        <Flex justify="center">
+            <Image src="/assets/showcase-banner.png" mt="64px" maxW="98%" />;
+        </Flex>
+    );
 }
 
 function CaseStory() {

@@ -1,4 +1,4 @@
-import { Box, Grid, Heading, Image, Link, Text } from '@chakra-ui/react';
+import { Box, Grid, Heading, Image, Link, Flex, Text } from '@chakra-ui/react';
 import Container from '../container';
 
 function Card({ title, desc }) {
@@ -101,9 +101,9 @@ export default function FeatureSection() {
                     </Text>
                 </Box>
             </Container>
-            <Box mt="32px" mb="64px">
-                <Image src="/assets/social.png" />
-            </Box>
+            <Flex justify="center" mt="32px" mb="64px">
+                <Image src="/assets/social.png" maxW="98%"/>
+            </Flex>
         </Box>
     );
 }
