@@ -1,5 +1,3 @@
-![Vercel Build Status](https://vercel-status.herokuapp.com/jaisharx/nextjs.org)
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
